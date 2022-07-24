@@ -1,0 +1,1 @@
+Measure the cost of calling a Python function from Rust with PyO3.
