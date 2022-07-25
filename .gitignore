@@ -1,3 +1,10 @@
 .venv/
 
 .vscode/
+
+*.pyc
+
+# Added by cargo
+
+/target
+/Cargo.lock
