@@ -24,7 +24,7 @@ pub struct Caller {
 impl Caller {
     pub fn init() -> Result<Self, PyErr> {
         Python::with_gil(|py| -> Result<Self, PyErr> {
-            let bench_module = py.import("bench_pkg.bench")?;
+            let bench_module = py.import("bench_py.do")?;
             let function = bench_module.getattr("do_something")?;
             Ok(Caller {
                 function: function.into(),

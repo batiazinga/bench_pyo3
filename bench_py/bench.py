@@ -1,4 +1,4 @@
-from .func import do_something
+from .do import do_something
 
 
 def test_do_something_00001(benchmark):
